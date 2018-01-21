@@ -11,7 +11,7 @@ printf("\n the prime numbers are");
 for(i=a;i<=b;i++)
 {
 int count=0;
-	for(j=2;j<i/2;j++)
+	for(j=1;j<=i;j++)
 	{
 		if(i%j==0)
 		{
@@ -20,7 +20,7 @@ int count=0;
 			
 		}}
 		
-		if(count==0 && i!=1)
+		if(count==2 && i!=1)
 		{
 		printf("\t %d",i);
 	}
