@@ -12,9 +12,9 @@ int main(void) {
         a= a/10;
     }
     if(c==num)
-        printf("\n %d is an Armstrong number",num);
+        printf("\n Yes");
     else
-        printf("\n %d is not an Armstrong number",num);
+        printf("\n no");
 
 	return 0;
 }
