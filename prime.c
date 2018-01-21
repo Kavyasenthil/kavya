@@ -4,12 +4,12 @@ int main(void) {
 	int a,i,count=0;
 	printf("\n enter the number");
 	scanf("%d",&a);
-	for(i=2;i<a;i++)
+	for(i=1;i<=a;i++)
 	{
 		if(a%i==0)
 		count++;
 	}
-	if(count==0)
+	if(count==2)
 {	printf("\n prime number");}
 	else{
 		printf("\n not a prime number");
