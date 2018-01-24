@@ -9,7 +9,13 @@ if(m1<m2)
 {
 min=m1-m2;
 min+=60;
+  if(hour<0)
+  {
 ++hour;
+  }
+  else
+  {--hour;}
+    
 }else
 min=m1-m2;
 printf("%d:%d is the time value",hour,min);
