@@ -8,7 +8,7 @@ int main(void) {
 	scanf("%s %s",&a,&b);
 	al=strlen(a);
 	bl=strlen(b);
-	if(al>bl)
+	if(al>=bl)
 	{
 		printf("\n %s",a);
 	}
