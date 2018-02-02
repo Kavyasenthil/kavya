@@ -5,7 +5,7 @@ int a[10],i,j,max,t;
 printf("\n enter the array");
 for(i=0;i<10;i++)
 {
-	scanf("%d",a[i]);
+	scanf("%d",&a[i]);
 }
 for(i=0;i<10;i++)
 {
