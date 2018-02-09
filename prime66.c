@@ -12,12 +12,12 @@ int main(void)
 	}
 	if(s==2)
 	{
-	printf("\n prime number");
+	printf("\n yes");
 	
 }
 	else
 	{
-		printf("\n not a prime number");
+		printf("\n no");
 	}
 	return 0;
 }
