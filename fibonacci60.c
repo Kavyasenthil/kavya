@@ -10,6 +10,6 @@ for(i=0;i<a;i++)
 	sum=first+second;
 	first=second;
 	second=sum;
-	printf("\t %d",sum);
+	printf("\t %d",first);
 }	return 0;
 }
