@@ -12,7 +12,7 @@ int main(void)
 			if(a[i]==a[j])
 			{
 			c=1;
-			break;
+				break;
 			}
 		}
 	}
