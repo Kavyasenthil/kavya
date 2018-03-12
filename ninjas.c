@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 int main(void) {
-	int a,b,i;
+	int a[10],b[10],i;
 	printf("\n enter the num of ninjas in kabali and opposite group");
-	for(i=0;i<32;i++)
+	for(i=0;i<3;i++)
 	{
-	scanf("%d %d",&a,&b);
+	scanf("%d %d",&a[i],&b[i]);
 		
 	}
 	
 	printf("\n the difference is");
-	if(b!=0)
+	for(i=0;i<3;i++)
 	{
-	printf("%d\n",b-a);
+	if(b[i]!=0)
+	{
+	printf("%d\n",b[i]-a[i]);
+	}
 	}
 		
 	
