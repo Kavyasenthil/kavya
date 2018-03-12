@@ -2,12 +2,12 @@
 
 int main()
 {
-    int a,t,n;
+    int a,t,n=1;
     printf("\n enter the num");
     scanf("%d",&a);
     while(a!=0) 
     {
-     temp=a%10;
+     t=a%10;
      n=n*t;
      a=a/10;
     }
